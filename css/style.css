@@ -1,0 +1,683 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.otf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-Regular.ttf');
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+.container {
+    width: 76%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+.auto {
+    margin: 0 auto;
+}
+
+.header {
+    padding: 52px 0 181px 0;
+}
+
+.logo {
+    width: 79px;
+}
+
+.navbar {
+    width: 433px;
+}
+
+.nav_item {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.004em;
+    color: #4A5658;
+}
+
+.nav_item:hover {
+    font-weight: 600;
+    font-size: 14px;
+    color: #083038;
+}
+
+.search {
+    width: 27px;
+    height: 27px;
+}
+
+.filter {
+    width: 24px;
+    height: 24px;
+    margin-left: 37px;
+}
+
+.slider {
+    margin-bottom: 98px;
+}
+
+.tag {
+    width: 109px;
+    margin: 0 auto;
+}
+
+.your_business {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #00BFC4;
+    margin-bottom: 5px;
+}
+
+.base {
+    background: #00BFC4;
+    width: 52px;
+    height: 2px;
+    margin-bottom: 31px;
+}
+
+.header_execute {
+    width: 852px;
+    font-family: 'Josefin Sans';
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #00788ace;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    font-weight: 700;
+}
+
+.btn_wrapper {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 21px 40px;
+    border: none;
+    background: #00BFC4;
+    box-shadow: 0px 26px 30px -16px rgba(0, 191, 196, 0.25);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #F8F5FF;
+    cursor: pointer;
+}
+
+.header_watch {
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #43808C;
+    font-weight: 400;
+}
+
+.about_us {
+    background: #EAFBFF;
+    padding: 260px 136px 107px 102px;
+    background-image: url('../images/shape.svg'), url('../images/shape_2.svg');
+    background-repeat: no-repeat;
+    background-position: 198px 80px, 1207px 648px;
+}
+
+.about_left img {
+    position: absolute;
+    transform: translate(58px, -190px);
+}
+
+.shape {
+    width: 540px;
+    height: 433px;
+    background: linear-gradient(229.5deg, rgba(245, 249, 250, 0) 21.55%, #A4DFEE 96.28%);
+    border-radius: 100px;
+}
+
+.about_contant {
+    width: 600px;
+    padding-left: 10px;
+}
+
+.about_card {
+    width: 328px;
+
+}
+
+.about_card:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.card_contant {
+    padding: 27px 44px 28px 28px;
+    background: linear-gradient(270deg, #FFFFFF 1.37%, rgba(255, 255, 255, 0) 98.02%);
+    border-radius: 40px;
+}
+
+.card_contant_left {
+    margin-right: 33px;
+}
+
+.about_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #00BFC4;
+
+}
+
+.about_tag base {
+    margin-bottom: 14px;
+}
+
+.about_title {
+    font-family: 'Josefin Sans';
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    color: #00788A;
+    margin-bottom: 24px;
+}
+
+.about_subtitle {
+    width: 576px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #083038;
+    margin-bottom: 27px;
+}
+
+.card_contant_right {
+    width: 178px;
+}
+
+.card_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00788A;
+}
+
+.card_desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #083038;
+}
+
+.service {
+    padding: 80px 118px 26px 136px;
+}
+
+.service_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #00BFC4;
+}
+
+.service_title {
+    width: 532px;
+    font-family: 'Josefin Sans';
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #00788A;
+    margin-bottom: 95px;
+
+}
+
+.cards {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 388px;
+    padding: 45px 45px 49px 38px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 82px;
+    transition: 0.3s;
+}
+
+.last_child {
+    margin: 0;
+    margin-bottom: 55px;
+}
+
+.card:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 60px 80px -14px rgba(0, 0, 0, 0.08);
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 57px;
+}
+
+.card-title {
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #083038;
+    margin-bottom: 27px;
+}
+
+.card-desc {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #083038;
+    opacity: 0.8;
+}
+
+.service_btn {
+    border: none;
+    padding: 23px 38px;
+    background: #00BFC4;
+    box-shadow: 0px 16px 30px -16px rgba(29, 139, 142, 0.25);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #083038;
+}
+
+.btn_group {
+    display: flex;
+    justify-content: center;
+}
+
+.service_btn img {
+    margin-left: 6px;
+}
+
+.wrapper_right .about_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #00BFC4;
+
+}
+
+.wrapper_right .about_title {
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+}
+
+.wrapper_right .about_subtitle {
+    width: 550px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    color: #083038;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.about_desc {
+    width: 540px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #083038;
+    opacity: 0.7;
+    margin-bottom: 54px;
+}
+
+.about_company {
+    padding: 298px 135px 149px 36px;
+}
+
+.wrapper_card {
+    width: 448px;
+    position: absolute;
+    transform: translate(114px, -91px);
+    background: #FFFFFF;
+    box-shadow: 4px 8px 44px -10px rgba(66, 94, 122, 0.18);
+    border-radius: 12px;
+    padding: 34px 46px 46px 46px;
+}
+
+.card_img {
+    margin-bottom: 17px;
+}
+
+.card_btn {
+    width: 100%;
+    padding: 22px 128px;
+    background: #083038;
+    border: none;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #74DCDF;
+    cursor: pointer;
+
+}
+
+.card_btn img {
+    margin-left: 18px;
+}
+
+.background {
+    width: 606px;
+    height: 530px;
+    background: linear-gradient(229.5deg, rgba(245, 249, 250, 0) 25.09%, #D7F2F9 101.5%);
+    border-radius: 100px;
+}
+
+.wrapper_right .btn_wrapper {
+    border: none;
+    background-color: transparent;
+}
+
+.btn_text {
+    margin-left: 16px;
+}
+
+.btn_watch {
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00788A;
+}
+
+.btn_intro {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00788A;
+}
+
+.option_bar {
+    display: flex;
+    justify-content: center;
+}
+
+.option_lists {
+    width: 634px;
+    background: #F7FFFF;
+    box-shadow: 0px 21px 33px -10px rgba(37, 126, 129, 0.16);
+    border-radius: 6px;
+    margin-bottom: 96px;
+}
+
+.option_item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #083038;
+    padding: 22px 20px;
+    cursor: pointer;
+}
+
+.option_item:hover {
+    box-shadow: 0px 19px 30px -16px rgba(51, 27, 59, 0.25);
+    border-radius: 6px;
+    color: #FFFFFF;
+    background: #00BFC4;
+    transition: 0.3s;
+}
+
+.feature {
+    padding: 60px 170px 111px 170px;
+}
+
+.feature .cards {
+    margin-bottom: 78px;
+}
+
+.feature .feature_card {
+    width: 276px;
+    height: 323px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card1 {
+    background-image: url('../images/card_1.jpg');
+}
+
+.card2 {
+    background-image: url('../images/card_2.jpg');
+}
+
+.card3 {
+    background-image: url('../images/card_3.jpg');
+}
+
+.card4 {
+    background-image: url('../images/card_4.jpg');
+}
+
+.countdown {
+    padding: 93px 274px 117px 220px;
+}
+
+.countdown_title {
+    font-family: 'Josefin Sans';
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    color: #00788A;
+    margin-bottom: 24px;
+}
+
+.countdown_desc {
+    width: 434px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #083038;
+
+}
+
+.countdown_left_card {
+    width: 143px;
+    padding: 30px 15px;
+    background: #FFF6EB;
+    box-shadow: 0px 2px 20px -8px rgba(0, 0, 0, 0.14);
+}
+
+.counting h5 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #083038;
+    margin-bottom: 10px;
+}
+
+.counting p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #263D42;
+}
+
+.countdown_card_wrapper {
+    align-items: flex-end;
+    width: 946px;
+}
+
+.countdown_card_wrapper {
+    padding-left: 40px;
+}
+
+.countdown_left {
+    width: 602px;
+}
+
+.countdown_right {
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0px 19px 30px -16px rgba(0, 82, 204, 0.25);
+    border-radius: 6px;
+    padding: 106px 36px 60px 30px;
+    background-image: url('../images/Rectangle.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countdown_right h5 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+
+.countdown_right p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.team{
+    height: 925px;
+    padding: 105px 0 110px 134px;
+    background-image: url('../images/team_back.png');
+    background-position: bottom right;
+    background-position-y: 304px;
+    background-repeat: no-repeat;
+}
+
+.team_wrapper .service_title {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.team_wrapper .countdown_desc {
+    width: 540px;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 76px;
+}
+.team .cards{
+    padding-right: 136px;
+}
+.team .feature_card {
+    width: 276px;
+    height: 323px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.team .card1 {
+    background-image: url('../images/card_1.jpg');
+}
+
+.team .card2 {
+    background-image: url('../images/card_2.jpg');
+}
+
+.team .card3 {
+    background-image: url('../images/card_3.jpg');
+}
+
+.team .card4 {
+    background-image: url('../images/card_4.jpg');
+}
